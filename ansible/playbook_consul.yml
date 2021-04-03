@@ -1,0 +1,6 @@
+---
+- hosts: SC_PC
+  tasks:
+    - name: Include consul role
+      include_role:
+        name: consul_role

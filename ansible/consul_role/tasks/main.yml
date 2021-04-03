@@ -1,0 +1,6 @@
+---
+# tasks file for consul_role
+-name: fetch file from remote SC_PC
+ fetch:
+  src: "/Documents/consul_config.txt"
+  dest: "/root/Documents"
